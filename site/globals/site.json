@@ -1,9 +1,9 @@
 {
-    "name": "Skeleventy",
-    "url": "https://skeleventy.netlify.app",
+    "name": "Dhall Terraform",
+    "url": "https://dhall-terraform.org",
     "author": {
-        "name": "Mill Burray",
-        "handle": "@joe_dyer1"
+        "name": "Dhall Terraform Admin",
+        "handle": "@dhalltf"
     },
     "images": {
         "favicon": "/favicon.png",
@@ -13,7 +13,6 @@
         "og": "/images/meta/og.jpg"
     },
     "social_links": {
-        "github": "https://github.com/josephdyer/skeleventy",
-        "twitter": "https://twitter.com/joe_dyer1"
+        "github": "https://github.com/dhall-terraform/"
     }
 }

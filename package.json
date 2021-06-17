@@ -1,16 +1,16 @@
 {
-  "name": "skeleventy",
-  "version": "3.0.0",
-  "description": "Skeleventy gives you a rock solid foundation to build fast and accessible static websites",
+  "name": "dhall-terraform-website",
+  "version": "1.0.0",
+  "description": "Dhall Terraform supports generating valid .tf.json configurations from a total functional programming language (dhall)",
   "scripts": {
     "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --config=eleventy.config.js --serve --quiet & mix watch",
     "production": "mix --production & npx @11ty/eleventy --config=eleventy.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/josephdyer/skeleventy.git"
+    "url": "https://github.com/dhall-terraform/dhall-terraform-website.git"
   },
-  "author": "Joe Dyer",
+  "author": "Evan Mattiza",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",

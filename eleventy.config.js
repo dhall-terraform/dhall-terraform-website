@@ -63,8 +63,6 @@ module.exports = config => {
     config.addLayoutAlias('home', 'layouts/home.njk')
     config.addLayoutAlias('page', 'layouts/page.njk')
     config.addLayoutAlias('blog', 'layouts/blog.njk')
-    config.addLayoutAlias('post', 'layouts/post.njk')
-    config.addLayoutAlias('contact', 'layouts/contact.njk')
     config.addLayoutAlias('category', 'layouts/category.njk')
 
     // Include our static assets
