@@ -2,11 +2,17 @@ const navigation = require('@11ty/eleventy-navigation')
 const dates = require('./utilities/filters/dates')
 const helpers = require('./utilities/filters/helpers')
 const path = require('path')
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 
 module.exports = config => {
 
     // navigation plugin
     config.addPlugin(navigation)
+    config.addPlugin(syntaxHighlight, {
+        templateFormats: ["md"],
+        trim: true,
+        lineSeparator: "\n",
+    })
 
     // Human readable date for posts
     config.addFilter('dateDisplay', dates.friendly)
